@@ -60,3 +60,17 @@ ab-test-pipeline/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+
+📊 Example Automated Output
+Upon successful execution, the pipeline generates a final_report.md tailored for non-technical stakeholders:
+
+Recommendation and Next Step
+Flat / Inconclusive
+
+No statistically meaningful difference. Choose based on cost or simplicity.
+
+Confidence: High. The data passed all pipeline validation gates, including a strict Sample Ratio Mismatch (SRM) check and duplicate user scan prior to statistical analysis.
+
+👤 Author
+Garv Dhingra
+Data Science & Business Analytics
