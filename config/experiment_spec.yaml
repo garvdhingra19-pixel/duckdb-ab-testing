@@ -1,0 +1,17 @@
+experiment_name: "gate_level_30_vs_40"
+unit_of_randomization: "user"
+variants:
+  - "gate_30"
+  - "gate_40"
+expected_split: [0.5, 0.5]
+primary_metric: "retained_d7"
+secondary_metrics:
+  - "retained_d1"
+  - "rounds_14d"
+guardrail_metrics:
+  - "total_rounds"
+parameters:
+  alpha: 0.05
+  power: 0.80
+  mde_absolute: 0.02
+  baseline_rate: 0.20
